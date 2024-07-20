@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Decoy Medium";
+  src: url(../fonts/fonnts.com-Decoy-Medium.otf);
+}
+nav {
+  height: 90px;
+  background-color: #ffc83f;
+  font-family: "Decoy Medium";
+  font-size: 22px;
+  color: #2552A2;
+}
+nav .nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1290px;
+  height: 100%;
+  margin: 0 auto;
+}
+nav .nav-container ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 376px;
+}
+nav .nav-container ul a:link {
+  text-decoration: none;
+  color: #2552A2;
+}
+nav .nav-container ul a:visited {
+  text-decoration: none;
+  color: #2552A2;
+}
+nav .nav-container ul a:hover {
+  text-decoration: none;
+  color: #2552A2;
+}
+nav .nav-container ul a:active {
+  text-decoration: none;
+  color: #2552A2;
+}
+
+/*# sourceMappingURL=styles.css.map */
