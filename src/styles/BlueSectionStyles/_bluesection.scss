@@ -1,0 +1,60 @@
+@use "../global/" as *;
+
+.blue-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1225px;
+    margin: 0 auto;
+}
+
+.blue-section {
+    height: 600px;
+    background-color: $blue;
+    display: flex;
+
+    img {
+        border-radius: 47px;
+    }
+}
+
+.blue-text {
+    width: 690px;
+
+    h2, .blue-button {
+        font-family: 'Decoy Medium';
+        font-weight: 100;
+        color: $yellow;
+    }
+
+    h2 {
+        font-size: $h2-font;
+    }
+
+    p {
+        font-family: 'Proxima Soft SemiBold';
+        font-size: $h5-font;
+        color: $yellow;     
+        line-height: 45px;   
+        padding-top: 36px;
+    }
+
+    .blue-link-button {
+        background-color: $orange;
+        font-size: calc($h4-font - 2px);
+        border-radius: 15px;
+        padding: 10px 16px;
+    }
+
+    .blue-button {
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+
+        a:link { text-decoration: none; color: $yellow; }
+        a:visited { text-decoration: none; color: $yellow; }
+        a:hover { text-decoration: none; color: $yellow; }
+        a:active { text-decoration: none; color: $yellow; }
+    }
+}

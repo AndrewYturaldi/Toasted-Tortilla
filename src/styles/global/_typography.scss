@@ -1,14 +1,29 @@
 //font imports
 @font-face {
     font-family: 'Decoy Medium';
-    src: url(../fonts/fonnts.com-Decoy-Medium.otf);
+    src: url(../fonts/Decoy-Medium.otf);
+}
+
+@font-face {
+    font-family: 'Proxima Soft Bold';
+    src: url(../fonts/ProximaSoft-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Proxima Soft SemiBold';
+    src: url(../fonts/ProximaSoft-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Decoy Italic';
+    src: url(../fonts/Decoy-Italic.otf);
 }
 
 //font size variables
 $h1-font: 64px;
-$h2-font: 40px;
+$h2-font: 45px;
 $h3-font: 33px;
-$h4-font: 28px;
-$h5-font: 22px;
+$h4-font: 30px;
+$h5-font: 24px;
 $h6-font: 22px;
-$p-font: 16px;
+$p-font: 18px;

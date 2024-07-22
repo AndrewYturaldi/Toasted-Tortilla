@@ -22,11 +22,12 @@ nav {
             flex-direction: row;
             justify-content: space-between;
             width: 376px;
+            padding-bottom: 6px;
 
             a:link { text-decoration: none; color: $blue; }
             a:visited { text-decoration: none; color: $blue; }
-            a:hover { text-decoration: none; color: $blue; }
-            a:active { text-decoration: none; color: $blue; }
+            a:hover { text-decoration: none; color: $orange; }
+            a:active { text-decoration: none; color: $orange; }
         }
     }
 }

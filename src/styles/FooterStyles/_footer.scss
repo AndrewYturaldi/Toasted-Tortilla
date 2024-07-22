@@ -1,0 +1,74 @@
+@use "../global/" as *;
+
+footer {
+    height: 548px;
+    background: url(../images/footerBackground.jpg) no-repeat center;
+    background-size: cover;
+    color: $blue;
+
+    h4 {
+        font-family: 'Decoy Medium';
+        font-size: $h4-font;
+        font-weight: 100;
+        padding-bottom: 18px;
+    }
+
+    p, ul {
+        font-family: 'Proxima Soft Bold';
+        font-size: $p-font;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .logo-section p {
+        font-family: 'Decoy Italic';
+    }
+    
+    a:link { text-decoration: none; color: $blue; }
+    a:visited { text-decoration: none; color: $blue; }
+    a:hover { text-decoration: none; color: $orange; }
+    a:active { text-decoration: none; color: $orange; }
+}
+
+.footer-main-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1225px;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+
+.footer-logo {
+    border: 5px solid $blue;
+    border-radius: 47px;
+}
+
+.get-app-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-store {
+    padding-top: 10px;
+}
+
+.footer-bottom-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1225px;
+    margin: 0 auto;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+}
+
+.alternate-font {
+    font-family: 'Arial';
+    font-weight: bold;
+}
+

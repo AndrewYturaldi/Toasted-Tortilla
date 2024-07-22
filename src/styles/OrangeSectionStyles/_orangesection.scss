@@ -1,0 +1,80 @@
+@use "../global" as *;
+
+.orange-section {
+    position: relative;
+    height: 629px;
+    background-color: $orange;
+
+    .top-wave {
+        position: absolute;
+        top:  0;
+        left: 0;
+    }
+
+    .orange-inner {
+        display: flex;
+        height: 629px;
+    }
+
+    .orange-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 1225px;
+        margin: 0 auto;
+    }
+
+    .menu-tacos {
+        border-radius: 47px;
+    }
+}
+
+.orange-text {
+    width: 580px;
+
+    h2, .orange-button-container {
+        font-family: 'Decoy Medium';
+        font-weight: 100;
+        color: $yellow;
+    }
+
+    h2 {
+        font-size: $h2-font;
+    }
+
+    p {
+        font-family: 'Proxima Soft SemiBold';
+        font-size: $h5-font;
+        color: $yellow;     
+        line-height: 45px;   
+        padding-top: 36px;
+    }
+
+    .orange-link-button {
+        display: flex;
+        align-items: center;
+        background-color: $blue;
+        font-size: calc($h4-font - 2px);
+        border-radius: 15px;
+        padding: 10px 16px;
+    }
+
+    .orange-button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+
+        a:link { text-decoration: none; color: $yellow; }
+        a:visited { text-decoration: none; color: $yellow; }
+        a:hover { text-decoration: none; color: $yellow; }
+        a:active { text-decoration: none; color: $yellow; }
+    }
+}
+
+.bottom-wave {
+    position: absolute;
+    top: 600px;
+    left: 0;
+}

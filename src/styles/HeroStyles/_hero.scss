@@ -1,0 +1,65 @@
+@use "../global" as *;
+
+.home-hero {
+    position: relative;
+    height: 585px;
+    background: url(../images/homeHero.jpg) no-repeat center;
+    background-size: cover;
+
+    .hero-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1225px;
+        margin: 0 auto;
+
+        .hero-words {
+            width: 415px;
+            padding-top: 86px;
+
+            .hero-title {
+                font-size: $h1-font;
+                font-family: 'Decoy Medium';
+                color: $yellow;
+                font-weight: 100;
+                text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+            }
+
+            .hero-subtitle {
+                font-size: $h4-font;
+                font-family: 'Proxima Soft Bold';
+                color: $yellow;
+                line-height: 36px;
+                padding-top: 16px;
+                padding-left: 4px;
+            }
+
+            a:link { text-decoration: none; color: $yellow; }
+            a:visited { text-decoration: none; color: $yellow; }
+            a:hover { text-decoration: none; color: $yellow; }
+            a:active { text-decoration: none; color: $yellow; }
+
+            .hero-buttons {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 350px;
+                padding-top: 28px;
+            }
+
+            .link-button {
+                background-color: $blue;
+                font-size: calc($h4-font - 2px);
+                font-family: 'Decoy Medium';
+                border-radius: 15px;
+                padding: 10px 16px;
+            }
+        }
+    }
+
+    .bottom-wave {
+        position: absolute;
+        top: 556px;
+        left: 0;
+    }
+}

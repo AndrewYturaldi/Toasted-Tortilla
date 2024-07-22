@@ -1,0 +1,22 @@
+@use "../global" as *;
+
+.app-image {
+    border: 6px solid $blue;
+    border-radius: 47px;
+}
+
+.download-app-container {
+    width: 1075px !important; //to override OrangeSectionStyles
+}
+
+.download-app-text {
+    width: 590px;
+}
+
+.download-app-buttons {
+    justify-content: space-between !important; //to override OrangeSectionStyles
+}
+
+.symbol-logo {
+    padding-right: 12px
+}

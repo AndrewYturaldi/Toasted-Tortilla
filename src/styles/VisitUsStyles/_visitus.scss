@@ -1,0 +1,37 @@
+@use "../global/" as *;
+
+.visit-us {
+    width: 100%;
+    height: 850px;
+    background-color: $blue;
+
+    .visit-us-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+
+        h2 {
+            font-size: $h2-font;
+            font-family: 'Decoy Medium';
+            font-weight: 100;
+            color: $yellow;
+        }
+    
+        p {
+            font-family: 'Proxima Soft SemiBold';
+            font-size: $h5-font;
+            color: $yellow;     
+            line-height: 45px;   
+            padding-top: 36px;
+        }
+    }
+}
+
+.map-section {
+    border: 0;
+    padding-top: 50px;
+}
