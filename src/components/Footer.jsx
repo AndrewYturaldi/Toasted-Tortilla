@@ -35,7 +35,7 @@ function Footer() {
                             2012 Woodall Rodgers <br/>
                             Fwy, Dallas, TX 75021
                         </p>
-                        <div className="contact-links-container">
+                        <div className="contact-links-section">
                             <a href="tel:596-785-6002">
                                 <img src={phoneBlue} width="30" height="auto"/>
                             </a>
@@ -82,15 +82,15 @@ function Footer() {
                             <img src={facebookBlue} width="32" height="auto"/>
                         </a>
                         <a href="https://www.instagram.com/" target="_blank">
-                            <img src={instaBlue} width="38" height="auto"/>
+                            <img src={instaBlue} width="34" height="auto"/>
                         </a>
                         <a href="https://twitter.com/" target="_blank">
-                            <img src={xBlue} width="34" height="auto"/>
+                            <img src={xBlue} width="32" height="auto"/>
                         </a>
                     </div>
-                    <p>
+                    <p className="copyright-text">
                         <span className="alternate-font">&copy;</span> Copyright The Toasted 
-                        Tortilla 2024 | Concept & Design by Daniel Neds
+                        Tortilla 2024 | Concept & Design by <a href="https://danielneds.myportfolio.com/toasted-tortilla" target="_blank">Daniel Neds</a>
                     </p>
                 </div>
             </footer>

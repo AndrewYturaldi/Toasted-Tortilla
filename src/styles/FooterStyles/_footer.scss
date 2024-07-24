@@ -10,12 +10,13 @@ footer {
         font-family: 'Decoy Medium';
         font-size: $h4-font;
         font-weight: 100;
-        padding-bottom: 18px;
+        padding-bottom: 16px;
     }
 
     p, ul {
         font-family: 'Proxima Soft Bold';
         font-size: $p-font;
+        line-height: 26px;
     }
 
     ul {
@@ -24,12 +25,14 @@ footer {
 
     .logo-section p {
         font-family: 'Decoy Italic';
+        font-size: 20px;
+        padding-top: 20px;
     }
     
     a:link { text-decoration: none; color: $blue; }
     a:visited { text-decoration: none; color: $blue; }
-    a:hover { text-decoration: none; color: $orange; }
-    a:active { text-decoration: none; color: $orange; }
+    a:hover { text-decoration: none; color: $orange; transition: color 0.3s ease; }
+    a:active { text-decoration: none; color: $orange; transition: color 0.3s ease; }
 }
 
 .footer-main-container {
@@ -37,12 +40,22 @@ footer {
     justify-content: space-between;
     width: 1225px;
     margin: 0 auto;
-    padding-top: 45px;
+    padding-top: 50px;
 }
 
 .footer-logo {
     border: 5px solid $blue;
     border-radius: 47px;
+}
+
+.contact-links-section {
+    img {
+        padding: 22px 0;
+    }
+
+    img:nth-child(1) {
+        padding-right: 15px;
+    }
 }
 
 .get-app-section {
@@ -58,17 +71,25 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 16px;
     width: 1225px;
     margin: 0 auto;
+    padding-top: 80px;
 }
 
 .socials {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 145px;
+    padding-bottom: 22px;
+}
+
+.copyright-text {
+    font-size: 16px;
 }
 
 .alternate-font {
     font-family: 'Arial';
     font-weight: bold;
 }
-
