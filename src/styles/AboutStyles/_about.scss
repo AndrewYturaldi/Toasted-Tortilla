@@ -1,0 +1,50 @@
+@use '../global/' as *;
+
+.about {
+    background-color: $blue;
+    height: 1150px;
+
+    h2 {
+        font-family: 'Decoy Medium';
+        font-size: $h2-font;
+        font-weight: 100;
+        color: $yellow;
+    }
+    
+    p {
+        font-family: 'Proxima Soft SemiBold';
+        font-size: $h6-font;
+        color: $yellow;
+        line-height: 45px;
+        padding-top: 30px;
+    }
+
+    .our-story, .meet-chip {
+        width: 1225px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .our-story {
+        padding-top: 120px;
+
+        img {
+            border-radius: 47px;
+        }
+
+        p {
+            width: 628px;
+        }
+    }
+
+    .meet-chip {
+        padding-top: 175px;
+
+        p {
+            width: 760px;
+        }
+    }
+
+}

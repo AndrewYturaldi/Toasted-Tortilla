@@ -58,10 +58,12 @@ nav .nav-container ul a:visited {
 nav .nav-container ul a:hover {
   text-decoration: none;
   color: #C75A28;
+  transition: color 0.3s ease;
 }
 nav .nav-container ul a:active {
   text-decoration: none;
   color: #C75A28;
+  transition: color 0.3s ease;
 }
 
 .home-hero {
@@ -331,6 +333,75 @@ nav .nav-container ul a:active {
   padding-top: 50px;
 }
 
+.taco-banner {
+  position: relative;
+  height: 300px;
+  background: url(../images/tacoBanner.jpg) no-repeat center;
+  background-size: cover;
+}
+.taco-banner .text {
+  padding-left: 100px;
+  padding-top: 60px;
+}
+.taco-banner h2 {
+  font-family: "Decoy Medium";
+  font-size: 45px;
+  font-weight: 100;
+  color: #ffc83f;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.taco-banner h5 {
+  font-family: "Proxima Soft Bold";
+  font-size: 24px;
+  color: #ffc83f;
+  padding-top: 10px;
+}
+.taco-banner .bottom-wave {
+  position: absolute;
+  top: 272px;
+  left: 0;
+}
+
+.about {
+  background-color: #2552A2;
+  height: 1150px;
+}
+.about h2 {
+  font-family: "Decoy Medium";
+  font-size: 45px;
+  font-weight: 100;
+  color: #ffc83f;
+}
+.about p {
+  font-family: "Proxima Soft SemiBold";
+  font-size: 22px;
+  color: #ffc83f;
+  line-height: 45px;
+  padding-top: 30px;
+}
+.about .our-story, .about .meet-chip {
+  width: 1225px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.about .our-story {
+  padding-top: 120px;
+}
+.about .our-story img {
+  border-radius: 47px;
+}
+.about .our-story p {
+  width: 628px;
+}
+.about .meet-chip {
+  padding-top: 175px;
+}
+.about .meet-chip p {
+  width: 760px;
+}
+
 footer {
   height: 548px;
   background: url(../images/footerBackground.jpg) no-repeat center;
@@ -341,17 +412,20 @@ footer h4 {
   font-family: "Decoy Medium";
   font-size: 30px;
   font-weight: 100;
-  padding-bottom: 18px;
+  padding-bottom: 16px;
 }
 footer p, footer ul {
   font-family: "Proxima Soft Bold";
   font-size: 18px;
+  line-height: 26px;
 }
 footer ul {
   list-style: none;
 }
 footer .logo-section p {
   font-family: "Decoy Italic";
+  font-size: 20px;
+  padding-top: 20px;
 }
 footer a:link {
   text-decoration: none;
@@ -364,10 +438,12 @@ footer a:visited {
 footer a:hover {
   text-decoration: none;
   color: #C75A28;
+  transition: color 0.3s ease;
 }
 footer a:active {
   text-decoration: none;
   color: #C75A28;
+  transition: color 0.3s ease;
 }
 
 .footer-main-container {
@@ -375,12 +451,19 @@ footer a:active {
   justify-content: space-between;
   width: 1225px;
   margin: 0 auto;
-  padding-top: 45px;
+  padding-top: 50px;
 }
 
 .footer-logo {
   border: 5px solid #2552A2;
   border-radius: 47px;
+}
+
+.contact-links-section img {
+  padding: 22px 0;
+}
+.contact-links-section img:nth-child(1) {
+  padding-right: 15px;
 }
 
 .get-app-section {
@@ -396,13 +479,22 @@ footer a:active {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 16px;
   width: 1225px;
   margin: 0 auto;
+  padding-top: 80px;
 }
 
 .socials {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 145px;
+  padding-bottom: 22px;
+}
+
+.copyright-text {
+  font-size: 16px;
 }
 
 .alternate-font {
