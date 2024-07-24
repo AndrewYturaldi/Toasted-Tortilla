@@ -1,0 +1,34 @@
+@use '../global/' as *;
+
+.taco-banner {
+    position: relative;
+    height: 300px;
+    background: url(../images/tacoBanner.jpg) no-repeat center;
+    background-size: cover;
+    
+    .text {
+        padding-left: 100px;
+        padding-top: 60px;
+    }
+
+    h2 {
+        font-family: 'Decoy Medium';
+        font-size: $h2-font;
+        font-weight: 100;
+        color: $yellow;
+        text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    h5 {
+        font-family: 'Proxima Soft Bold';
+        font-size: $h5-font;
+        color: $yellow;
+        padding-top: 10px;
+    }
+
+    .bottom-wave {
+        position: absolute;
+        top: 272px;
+        left: 0;
+    }
+}
