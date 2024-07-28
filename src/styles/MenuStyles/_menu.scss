@@ -1,0 +1,66 @@
+@use "../global/" as *;
+
+.menu {
+    background-color: $blue;
+    padding: 140px 0;
+}
+
+.menu-inner {
+    border: 5px solid $yellow;
+    border-radius: 30px;
+    width: 1225px;
+    margin: 0 auto;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 70px;
+    color: $yellow;
+    padding: 20px 92px 80px 92px;
+}
+
+.section-heading {
+    padding-top: 60px;
+
+    h2 {
+        font-family: 'Decoy Medium';
+        font-weight: 100;
+        font-size: calc($h2-font - 3px);
+    }
+}
+
+.heading-line {
+    border-bottom: 3px solid $yellow;
+    padding-top: 20px;
+}
+
+.menu-option {
+
+    padding-top: 25px;
+
+    h5, h6 {
+        font-family: 'Proxima Soft SemiBold';
+    }
+
+    h5 {
+        font-size: calc($h5-font + 2px);
+    }
+
+    h6 {
+        font-size: calc($h6-font - 2px);
+        padding-top: 10px;
+        line-height: 28px;
+    }
+
+}
+
+.reference-point {
+    position: relative;
+
+    img {
+        position: absolute;
+        top: 50px;
+        left: 235px;
+    }
+}

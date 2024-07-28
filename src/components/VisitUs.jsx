@@ -1,4 +1,4 @@
-function BlueSection() {
+function VisitUs() {
 
     return (
         <div className="visit-us">
@@ -12,4 +12,4 @@ function BlueSection() {
     );
 }
 
-export default BlueSection;
+export default VisitUs;
