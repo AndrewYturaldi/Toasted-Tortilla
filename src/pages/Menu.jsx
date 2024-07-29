@@ -1,6 +1,7 @@
-import Footer from "../components/Footer";
 import TacoBanner from "../components/TacoBanner";
 import chipImg from "../images/BlueOnYellow-Logo.png";
+import VisitUs from "../components/VisitUs";
+import Footer from "../components/Footer";
 
 function Menu() {
     return (
@@ -177,6 +178,7 @@ function Menu() {
                     </div>
                 </div>
             </div>
+            <VisitUs />
             <Footer />
         </>
     )

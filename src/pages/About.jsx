@@ -1,7 +1,8 @@
-import Footer from "../components/Footer";
 import TacoBanner from "../components/TacoBanner";
 import tacoTruck from "../images/tacoTruck.jpg";
 import chipImage from "../images/BlueOnYellow-Logo.png";
+import VisitUs from "../components/VisitUs";
+import Footer from "../components/Footer";
 
 function About() {
     return (
@@ -42,6 +43,7 @@ function About() {
                     </div>
                 </div>
             </div>
+            <VisitUs />
             <Footer />
         </>
     )

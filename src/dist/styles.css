@@ -364,7 +364,6 @@ nav .nav-container ul a:active {
 
 .about {
   background-color: #2552A2;
-  height: 1150px;
 }
 .about h2 {
   font-family: "Decoy Medium";
@@ -397,6 +396,7 @@ nav .nav-container ul a:active {
 }
 .about .meet-chip {
   padding-top: 175px;
+  padding-bottom: 80px;
 }
 .about .meet-chip p {
   width: 760px;
@@ -404,7 +404,7 @@ nav .nav-container ul a:active {
 
 .menu {
   background-color: #2552A2;
-  padding: 140px 0;
+  padding: 140px 0 80px 0;
 }
 
 .menu-inner {
