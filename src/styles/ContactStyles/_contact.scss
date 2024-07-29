@@ -1,0 +1,111 @@
+@use "../global/" as *;
+
+.contact {
+    background-color: $blue;
+    color: $yellow;
+    padding: 140px 0 80px 0;
+}
+
+.contact-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1225px;
+    margin: 0 auto;
+
+    h2 {
+        font-family: 'Decoy Medium';
+        font-size: $h2-font;
+        font-weight: 100;
+    }
+
+    h6 {
+        font-family: 'Proxima Soft SemiBold';
+        font-size: $h6-font;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        padding-top: 40px;
+    }
+
+    a {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 20px;
+
+        &:link { text-decoration: none; color: $yellow; }
+        &:visited { text-decoration: none; color: $yellow; }
+        &:hover { text-decoration: none; color: $orange; transition: color 0.3s ease; }
+        &:active { text-decoration: none; color: $orange; transition: color 0.3s ease; }
+    }
+
+    
+}
+
+.contact-info-outer {
+    display: flex;
+    justify-content: left;
+    width: 465px;
+}
+
+.contact-text {
+    padding-top: 40px;
+    line-height: 36px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
+
+input, textarea {
+    border: none;
+    padding: 12px 18px;
+    font-family: 'Proxima Soft SemiBold';
+    font-size: $h6-font;
+    color: $blue;
+    margin-top: 10px;
+}
+
+button {
+    border: none;
+    font-family: 'Decoy Medium';
+    font-size: calc($h5-font + 2px);
+    background-color: $orange;
+    color: $yellow;
+    padding: 12px 0;
+    margin-top: 42px;
+
+    &:hover { cursor: pointer; }
+    &:active { cursor: pointer; }
+}
+
+input, button {
+    border-radius: 47px;
+}
+
+textarea {
+    border-radius: 28px;
+    resize: none;
+}
+
+label {
+    font-family: 'Decoy Medium';
+    font-size: calc($h5-font + 2px);
+    font-weight: 100;
+}
+
+.other-label {
+    padding-top: 30px;
+}
+
+.asterik {
+    color: $orange;
+}
+

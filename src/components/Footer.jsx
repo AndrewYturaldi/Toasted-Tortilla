@@ -40,7 +40,7 @@ function Footer() {
                                 <img src={phoneBlue} width="30" height="auto"/>
                             </a>
                             <a href="mailto:contact@toastedtortilla.com">
-                                <img src={emailBlue} width="42" height="auto"/>
+                                <img src={emailBlue} width="36" height="auto"/>
                             </a>  
                         </div>
                         <p>
@@ -84,7 +84,7 @@ function Footer() {
                         <a href="https://www.instagram.com/" target="_blank">
                             <img src={instaBlue} width="34" height="auto"/>
                         </a>
-                        <a href="https://twitter.com/" target="_blank">
+                        <a href="https://x.com/" target="_blank">
                             <img src={xBlue} width="32" height="auto"/>
                         </a>
                     </div>

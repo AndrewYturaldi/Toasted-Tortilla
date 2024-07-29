@@ -44,7 +44,7 @@ nav .nav-container ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 376px;
+  width: 384px;
   padding-bottom: 6px;
 }
 nav .nav-container ul a:link {
@@ -458,6 +458,124 @@ nav .nav-container ul a:active {
   position: absolute;
   top: 50px;
   left: 235px;
+}
+
+.contact {
+  background-color: #2552A2;
+  color: #ffc83f;
+  padding: 140px 0 80px 0;
+}
+
+.contact-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1225px;
+  margin: 0 auto;
+}
+.contact-inner h2 {
+  font-family: "Decoy Medium";
+  font-size: 45px;
+  font-weight: 100;
+}
+.contact-inner h6 {
+  font-family: "Proxima Soft SemiBold";
+  font-size: 22px;
+}
+.contact-inner ul {
+  list-style: none;
+}
+.contact-inner li {
+  padding-top: 40px;
+}
+.contact-inner a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 20px;
+}
+.contact-inner a:link {
+  text-decoration: none;
+  color: #ffc83f;
+}
+.contact-inner a:visited {
+  text-decoration: none;
+  color: #ffc83f;
+}
+.contact-inner a:hover {
+  text-decoration: none;
+  color: #C75A28;
+  transition: color 0.3s ease;
+}
+.contact-inner a:active {
+  text-decoration: none;
+  color: #C75A28;
+  transition: color 0.3s ease;
+}
+
+.contact-info-outer {
+  display: flex;
+  justify-content: left;
+  width: 465px;
+}
+
+.contact-text {
+  padding-top: 40px;
+  line-height: 36px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+}
+
+input, textarea {
+  border: none;
+  padding: 12px 18px;
+  font-family: "Proxima Soft SemiBold";
+  font-size: 22px;
+  color: #2552A2;
+  margin-top: 10px;
+}
+
+button {
+  border: none;
+  font-family: "Decoy Medium";
+  font-size: 26px;
+  background-color: #C75A28;
+  color: #ffc83f;
+  padding: 12px 0;
+  margin-top: 42px;
+}
+button:hover {
+  cursor: pointer;
+}
+button:active {
+  cursor: pointer;
+}
+
+input, button {
+  border-radius: 47px;
+}
+
+textarea {
+  border-radius: 28px;
+  resize: none;
+}
+
+label {
+  font-family: "Decoy Medium";
+  font-size: 26px;
+  font-weight: 100;
+}
+
+.other-label {
+  padding-top: 30px;
+}
+
+.asterik {
+  color: #C75A28;
 }
 
 footer {
