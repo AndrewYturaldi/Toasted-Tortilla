@@ -82,7 +82,7 @@ button {
     padding: 12px 0;
     margin-top: 42px;
 
-    &:hover { cursor: pointer; }
+    &:hover { cursor: pointer; background-color: $yellow; color: $orange; }
     &:active { cursor: pointer; }
 }
 

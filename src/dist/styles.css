@@ -141,11 +141,11 @@ nav .nav-container ul a:active {
 }
 .home-hero .hero-flex .hero-words a:hover {
   text-decoration: none;
-  color: #ffc83f;
+  color: #2552A2;
 }
 .home-hero .hero-flex .hero-words a:active {
   text-decoration: none;
-  color: #ffc83f;
+  color: #2552A2;
 }
 .home-hero .hero-flex .hero-words .hero-buttons {
   display: flex;
@@ -161,6 +161,9 @@ nav .nav-container ul a:active {
   border-radius: 15px;
   padding: 10px 16px;
 }
+.home-hero .hero-flex .hero-words .link-button:hover {
+  background-color: #ffc83f;
+}
 .home-hero .wave-container {
   overflow: hidden;
   position: absolute;
@@ -168,14 +171,6 @@ nav .nav-container ul a:active {
   left: 0;
   width: 100%;
   height: 50px;
-}
-.home-hero .bottom-wave {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 200%; /* Extend beyond the right edge */
-  height: 100%;
-  background: url("../images/bottomWave.svg") repeat-x;
 }
 
 .blue-container {
@@ -220,6 +215,9 @@ nav .nav-container ul a:active {
   border-radius: 15px;
   padding: 10px 16px;
 }
+.blue-text .blue-link-button:hover {
+  background-color: #ffc83f;
+}
 .blue-text .blue-button {
   display: flex;
   justify-content: center;
@@ -235,49 +233,17 @@ nav .nav-container ul a:active {
 }
 .blue-text .blue-button a:hover {
   text-decoration: none;
-  color: #ffc83f;
+  color: #C75A28;
 }
 .blue-text .blue-button a:active {
   text-decoration: none;
-  color: #ffc83f;
+  color: #C75A28;
 }
 
 .orange-section {
   position: relative;
   height: 629px;
   background-color: #C75A28;
-}
-.orange-section .bottom-wave-container {
-  overflow: hidden;
-  position: absolute;
-  top: 600px;
-  left: 0;
-  width: 100%;
-  height: 50px;
-}
-.orange-section .top-wave-container {
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 50px;
-}
-.orange-section .bottom-wave {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 200%; /* Extend beyond the right edge */
-  height: 100%;
-  background: url("../images/bottomWave.svg") repeat-x;
-}
-.orange-section .top-wave {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 200%; /* Extend beyond the right edge */
-  height: 100%;
-  background: url("../images/topWave.svg") repeat-x;
 }
 .orange-section .orange-inner {
   display: flex;
@@ -321,6 +287,9 @@ nav .nav-container ul a:active {
   border-radius: 15px;
   padding: 10px 16px;
 }
+.orange-text .orange-link-button:hover {
+  background-color: #ffc83f;
+}
 .orange-text .orange-button-container {
   display: flex;
   justify-content: center;
@@ -337,11 +306,11 @@ nav .nav-container ul a:active {
 }
 .orange-text .orange-button-container a:hover {
   text-decoration: none;
-  color: #ffc83f;
+  color: #2552A2;
 }
 .orange-text .orange-button-container a:active {
   text-decoration: none;
-  color: #ffc83f;
+  color: #2552A2;
 }
 
 .app-image {
@@ -363,6 +332,10 @@ nav .nav-container ul a:active {
 
 .symbol-logo {
   padding-right: 12px;
+}
+
+.play-button:hover path, .apple-button:hover path {
+  fill: #2552A2 !important;
 }
 
 .visit-us {
@@ -450,20 +423,22 @@ nav .nav-container ul a:active {
   align-items: center;
   margin: 0 auto;
 }
-.about .our-story {
+
+.our-story {
   padding-top: 120px;
 }
-.about .our-story img {
+.our-story img {
   border-radius: 47px;
 }
-.about .our-story p {
+.our-story p {
   width: 628px;
 }
-.about .meet-chip {
+
+.meet-chip {
   padding-top: 175px;
   padding-bottom: 80px;
 }
-.about .meet-chip p {
+.meet-chip p {
   width: 760px;
 }
 
@@ -615,6 +590,8 @@ button {
 }
 button:hover {
   cursor: pointer;
+  background-color: #ffc83f;
+  color: #C75A28;
 }
 button:active {
   cursor: pointer;

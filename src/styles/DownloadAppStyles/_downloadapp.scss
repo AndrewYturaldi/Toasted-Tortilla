@@ -1,4 +1,4 @@
-@use "../global" as *;
+@use "../global/" as *;
 
 .app-image {
     border: 6px solid $blue;
@@ -18,5 +18,13 @@
 }
 
 .symbol-logo {
-    padding-right: 12px
+    padding-right: 12px;
+}
+
+.play-button, .apple-button {
+    &:hover {
+        path {
+            fill: $blue !important;
+        }
+    }
 }
