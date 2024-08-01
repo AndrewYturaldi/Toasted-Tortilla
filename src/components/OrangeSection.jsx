@@ -1,7 +1,5 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import topWave from "../images/topWave.svg"
-import bottomWave from "../images/bottomWave.svg";
 
 function OrangeSection({ title, description, linkTo, btnText, imageSrc }) {
     const [nav, setNav] = useState(false);

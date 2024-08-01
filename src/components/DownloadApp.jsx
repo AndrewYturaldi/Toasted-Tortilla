@@ -1,8 +1,6 @@
-import topWave from "../images/topWave.svg"
 import appImage from "../images/appImage.jpg";
 import appleLogo from "../images/appleLogo.png";
 import playLogo from "../images/playLogo.png";
-import bottomWave from "../images/bottomWave.svg";
 
 function DownloadApp() {
     return (

@@ -440,7 +440,7 @@ nav .nav-container ul a:active {
   font-family: "Proxima Soft SemiBold";
   font-size: 22px;
   color: #ffc83f;
-  line-height: 45px;
+  line-height: 40px;
   padding-top: 30px;
 }
 .about .our-story, .about .meet-chip {
@@ -586,7 +586,7 @@ nav .nav-container ul a:active {
 
 .contact-text {
   padding-top: 40px;
-  line-height: 36px;
+  line-height: 40px;
 }
 
 form {
