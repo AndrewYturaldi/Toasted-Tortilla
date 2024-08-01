@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import topWave from "../images/topWave.svg"
 import footerLogo from "../images/footerLogo.jpg";
 import phoneBlue from "../images/phoneBlue.png";
 import emailBlue from "../images/emailBlue.png";
@@ -21,7 +20,9 @@ function Footer() {
     return (
         <>
             <footer>
-                <img className="top-wave" src={topWave} />
+                <div className="top-wave-container">
+                    <div className="top-wave"></div>
+                </div>
                 <div className="footer-main-container">
                     <div className="logo-section">
                         <img className="footer-logo" src={footerLogo} width="180" height="auto"/>

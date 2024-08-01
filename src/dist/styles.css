@@ -3,8 +3,40 @@
   margin: 0;
 }
 
-body {
-  overflow-x: hidden;
+.bottom-wave-container {
+  overflow: hidden;
+  position: absolute;
+  top: 600px;
+  left: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.top-wave-container {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.bottom-wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%; /* Extend beyond the right edge */
+  height: 100%;
+  background: url("../images/bottomWave.svg") repeat-x;
+}
+
+.top-wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%; /* Extend beyond the right edge */
+  height: 100%;
+  background: url("../images/topWave.svg") repeat-x;
 }
 
 @font-face {
@@ -35,9 +67,10 @@ nav .nav-container {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 1290px;
+  max-width: 1290px;
   height: 100%;
   margin: 0 auto;
+  padding: 0 40px;
 }
 nav .nav-container ul {
   list-style: none;
@@ -68,7 +101,7 @@ nav .nav-container ul a:active {
 
 .home-hero {
   position: relative;
-  height: 585px;
+  height: 620px;
   background: url(../images/homeHero.jpg) no-repeat center;
   background-size: cover;
 }
@@ -81,7 +114,7 @@ nav .nav-container ul a:active {
 }
 .home-hero .hero-flex .hero-words {
   width: 415px;
-  padding-top: 86px;
+  padding-top: 100px;
 }
 .home-hero .hero-flex .hero-words .hero-title {
   font-size: 64px;
@@ -128,10 +161,21 @@ nav .nav-container ul a:active {
   border-radius: 15px;
   padding: 10px 16px;
 }
+.home-hero .wave-container {
+  overflow: hidden;
+  position: absolute;
+  top: 591px;
+  left: 0;
+  width: 100%;
+  height: 50px;
+}
 .home-hero .bottom-wave {
   position: absolute;
-  top: 556px;
+  top: 0;
   left: 0;
+  width: 200%; /* Extend beyond the right edge */
+  height: 100%;
+  background: url("../images/bottomWave.svg") repeat-x;
 }
 
 .blue-container {
@@ -203,10 +247,37 @@ nav .nav-container ul a:active {
   height: 629px;
   background-color: #C75A28;
 }
+.orange-section .bottom-wave-container {
+  overflow: hidden;
+  position: absolute;
+  top: 600px;
+  left: 0;
+  width: 100%;
+  height: 50px;
+}
+.orange-section .top-wave-container {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+}
+.orange-section .bottom-wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%; /* Extend beyond the right edge */
+  height: 100%;
+  background: url("../images/bottomWave.svg") repeat-x;
+}
 .orange-section .top-wave {
   position: absolute;
   top: 0;
   left: 0;
+  width: 200%; /* Extend beyond the right edge */
+  height: 100%;
+  background: url("../images/topWave.svg") repeat-x;
 }
 .orange-section .orange-inner {
   display: flex;
@@ -273,12 +344,6 @@ nav .nav-container ul a:active {
   color: #ffc83f;
 }
 
-.bottom-wave {
-  position: absolute;
-  top: 600px;
-  left: 0;
-}
-
 .app-image {
   border: 6px solid #2552A2;
   border-radius: 47px;
@@ -340,6 +405,7 @@ nav .nav-container ul a:active {
   background-size: cover;
 }
 .taco-banner .text {
+  position: relative;
   max-width: 1225px;
   padding-top: 60px;
   margin: 0 auto;
@@ -357,10 +423,8 @@ nav .nav-container ul a:active {
   color: #ffc83f;
   padding-top: 10px;
 }
-.taco-banner .bottom-wave {
-  position: absolute;
+.taco-banner .bottom-wave-container {
   top: 272px;
-  left: 0;
 }
 
 .about {
@@ -580,7 +644,8 @@ label {
 }
 
 footer {
-  height: 548px;
+  position: relative;
+  height: 550px;
   background: url(../images/footerBackground.jpg) no-repeat center;
   background-size: cover;
   color: #2552A2;
@@ -628,7 +693,7 @@ footer a:active {
   justify-content: space-between;
   width: 1225px;
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 80px;
 }
 
 .footer-logo {

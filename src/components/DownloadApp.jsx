@@ -8,7 +8,12 @@ function DownloadApp() {
     return (
         <>
             <div className="orange-section">
-                <img className="top-wave" src={topWave} />
+                <div className="top-wave-container">
+                    <div className="top-wave"></div>
+                </div>
+                <div className="bottom-wave-container">
+                    <div className="bottom-wave"></div>
+                </div>
                 <div className="orange-inner">
                     <div className="orange-container download-app-container">
                         <img className="app-image" src={appImage} width="300" height="auto"/>
@@ -31,7 +36,6 @@ function DownloadApp() {
                         </div>
                     </div>
                 </div>
-                <img className="bottom-wave" src={bottomWave} />
             </div>
         </>
     )

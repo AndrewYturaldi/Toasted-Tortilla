@@ -3,6 +3,40 @@
     margin: 0;
 }
 
-body {
-    overflow-x: hidden;
+//Top and bottom wave styles
+
+.bottom-wave-container {
+    overflow: hidden;
+    position: absolute;
+    top: 600px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+} 
+
+.top-wave-container {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+} 
+
+.bottom-wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%; /* Extend beyond the right edge */
+    height: 100%;
+    background: url('../images/bottomWave.svg') repeat-x;
+}
+
+.top-wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%; /* Extend beyond the right edge */
+    height: 100%;
+    background: url('../images/topWave.svg') repeat-x;
 }

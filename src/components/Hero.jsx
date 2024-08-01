@@ -1,7 +1,6 @@
 import tacoHero from "../images/tacoHero.png";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import bottomWave from "../images/bottomWave.svg";
 
 function Hero() {
     const [nav, setNav] = useState(false);
@@ -34,7 +33,9 @@ function Hero() {
                         </div>
                     </div>
                 </div>
-                <img className="bottom-wave" src={bottomWave} />
+                <div className="wave-container">
+                    <div className="bottom-wave"></div>
+                </div> 
             </div>
         </>
     )

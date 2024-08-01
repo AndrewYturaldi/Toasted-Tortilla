@@ -14,8 +14,12 @@ function OrangeSection({ title, description, linkTo, btnText, imageSrc }) {
     return (
         <>
             <div className="orange-section">
-                <img className="top-wave" src={topWave} />
-                <img className="bottom-wave" src={bottomWave} />
+                <div className="top-wave-container">
+                    <div className="top-wave"></div>
+                </div>
+                <div className="bottom-wave-container">
+                    <div className="bottom-wave"></div>
+                </div>
                 <div className="orange-inner">
                     <div className="orange-container">
                         <img className="menu-tacos" src={imageSrc} width="500" height="auto"/>

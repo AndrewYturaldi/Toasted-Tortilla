@@ -1,7 +1,8 @@
 @use "../global/" as *;
 
 footer {
-    height: 548px;
+    position: relative;
+    height: 550px;
     background: url(../images/footerBackground.jpg) no-repeat center;
     background-size: cover;
     color: $blue;
@@ -40,7 +41,7 @@ footer {
     justify-content: space-between;
     width: 1225px;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 80px;
 }
 
 .footer-logo {

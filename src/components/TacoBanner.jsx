@@ -1,5 +1,3 @@
-import bottomWave from "../images/bottomWave.svg"
-
 function TacoBanner({ pageTitle, pagePath }) {
     return (
         <>
@@ -7,7 +5,9 @@ function TacoBanner({ pageTitle, pagePath }) {
                 <div className="text">
                     <h2>{pageTitle}</h2>
                     <h5>{pagePath}</h5>
-                    <img className="bottom-wave" src={bottomWave} />
+                </div>
+                <div className="bottom-wave-container">
+                    <div className="bottom-wave"></div>
                 </div>
             </div>
         </>

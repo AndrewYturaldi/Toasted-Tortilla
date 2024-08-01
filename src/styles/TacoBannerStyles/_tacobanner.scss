@@ -7,6 +7,7 @@
     background-size: cover;
     
     .text {
+        position: relative; //for bottomWave
         max-width: 1225px;
         padding-top: 60px;
         margin: 0 auto;
@@ -27,9 +28,7 @@
         padding-top: 10px;
     }
 
-    .bottom-wave {
-        position: absolute;
+    .bottom-wave-container {
         top: 272px;
-        left: 0;
     }
 }
