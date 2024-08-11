@@ -24,7 +24,7 @@
 .play-button, .apple-button {
     &:hover {
         path {
-            fill: $blue !important;
+            fill: $blue !important; //to override svg path style attribute
         }
     }
 }

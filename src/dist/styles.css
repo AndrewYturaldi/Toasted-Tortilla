@@ -109,11 +109,12 @@ nav .nav-container ul a:active {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 1225px;
+  max-width: 1225px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 .home-hero .hero-flex .hero-words {
-  width: 415px;
+  width: 380px;
   padding-top: 100px;
 }
 .home-hero .hero-flex .hero-words .hero-title {
@@ -160,6 +161,7 @@ nav .nav-container ul a:active {
   font-family: "Decoy Medium";
   border-radius: 15px;
   padding: 10px 16px;
+  margin-top: 0;
 }
 .home-hero .hero-flex .hero-words .link-button:hover {
   background-color: #ffc83f;
@@ -666,9 +668,14 @@ footer a:active {
 }
 
 .footer-main-container {
+  max-width: 1225px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+.footer-top-container {
   display: flex;
   justify-content: space-between;
-  width: 1225px;
   margin: 0 auto;
   padding-top: 80px;
 }
@@ -699,7 +706,6 @@ footer a:active {
   flex-direction: column;
   align-items: center;
   font-size: 16px;
-  width: 1225px;
   margin: 0 auto;
   padding-top: 80px;
 }
