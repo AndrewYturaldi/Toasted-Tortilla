@@ -14,7 +14,11 @@ function Home() {
 
     const scrollToVisitUs = () => {
         if (visitUsRef.current) {
-            visitUsRef.current.scrollIntoView({ behavior: 'smooth' });
+            const top = visitUsRef.current.getBoundingClientRect().top + window.pageYOffset;
+            window.scrollTo({
+                top: top + 50, // Adjust this value to control the offset
+                behavior: 'smooth',
+            });
         }
     };
 
