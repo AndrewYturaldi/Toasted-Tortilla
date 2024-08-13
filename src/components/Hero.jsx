@@ -19,7 +19,7 @@ function Hero({ onVisitUsClick }) {
                         <h1 className="hero-title">Taco-bout a Good Time!</h1>
                         <h4 className="hero-subtitle">Ready to Serve You at Our Dallas, TX Food Truck</h4>
                         <div className="hero-buttons">
-                            <Link onClick={openNav} to="/menu" >
+                            <Link onClick={openNav} to="/menu">
                                 <div className="link-button">
                                     View Menu
                                 </div>

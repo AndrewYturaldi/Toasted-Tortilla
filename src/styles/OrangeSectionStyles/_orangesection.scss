@@ -5,9 +5,13 @@
     height: 629px;
     background-color: $orange;
 
+    @media(max-width: 1250px) {
+        height: 1200px;
+    }
+
     .orange-inner {
         display: flex;
-        height: 629px;
+        height: 660px;
     }
 
     .orange-container {
@@ -17,6 +21,13 @@
         align-items: center;
         width: 1225px;
         margin: 0 auto;
+        padding: 0 36px;
+        padding-bottom: 28px;
+
+        @media(max-width: 1250px) {
+            flex-direction: column;
+            row-gap: 100px;
+        }
     }
 
     .menu-tacos {

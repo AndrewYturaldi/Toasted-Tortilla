@@ -7,12 +7,22 @@
     align-items: center;
     width: 1225px;
     margin: 0 auto;
+    padding: 0 36px;
+
+    @media(max-width: 1250px) {
+        flex-direction: column-reverse;
+        row-gap: 100px;
+    }
 }
 
 .blue-section {
-    height: 600px;
     background-color: $blue;
     display: flex;
+    padding: 150px 0;
+
+    @media(max-width: 1250px) {
+        padding: 125px 0;
+    }
 
     img {
         border-radius: 47px;
