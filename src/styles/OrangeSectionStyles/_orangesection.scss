@@ -2,16 +2,18 @@
 
 .orange-section {
     position: relative;
-    height: 629px;
+    //height: 629px;
     background-color: $orange;
 
     @media(max-width: 1250px) {
-        height: 1200px;
+        //height: 1200px;
+        padding-top: 125px;
     }
 
     .orange-inner {
         display: flex;
-        height: 660px;
+        //height: 660px;
+        padding-bottom: 110px;
     }
 
     .orange-container {
@@ -37,6 +39,12 @@
 
 .orange-text {
     width: 580px;
+
+    @media(max-width: 1250px) {
+        //text-align: center;
+        width: auto;
+        max-width: 580px;
+    }
 
     h2, .orange-button-container {
         font-family: 'Decoy Medium';

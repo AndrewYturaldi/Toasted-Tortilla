@@ -30,6 +30,9 @@ function Navbar() {
                         <Link onClick={openNav} to="/contact">
                             <li>Contact</li>
                         </Link>
+                        <label className="hamburger-menu hidden">
+                            <input type="checkbox"/>
+                        </label>
                     </ul>
                 </div>
             </nav>

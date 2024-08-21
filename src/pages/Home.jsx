@@ -34,7 +34,7 @@ function Home() {
             />
             <OrangeSection
                 title="Check Out Our Menu"
-                description="Our menu is packed with irresistible dishes crafted with love and creativity, ensuring each visit is a delicious adventure for everyone!"
+                description="Our menu is packed with irresistible dishes that are made with love and creativity, ensuring each visit is a delicious adventure for everyone!"
                 linkTo="/menu"
                 btnText="View Menu"
                 imageSrc={menuTacos}
